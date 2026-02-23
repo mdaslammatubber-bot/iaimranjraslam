@@ -1,115 +1,53 @@
-d<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visa Status Check</title>
+    <title>Ayan Travels and Tours Bd - Umrah Packages</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <div class="container">
-        <header>
-            <img src="logo.png" alt="Logo" class="logo">
-            <h2>Visa Enquiry</h2>
-            <button class="login-btn">Login</button>
-        </header>
-
-        <main>
-            <h3>Check Visa Status</h3>
-            <p>Please Enter The Following Data</p>
-            
-            <form action="check_status.php" method="POST">
-                <div class="input-group">
-                    <label>Passport Number:</label>
-                    <input type="text" name="passport_no" placeholder="Passport Number" required>
-                </div>
-
-                <div class="input-group">
-                    <label>Date of Birth:</label>
-                    <input type="date" name="dob" required>
-                </div>
-
-                <div class="button-group">
-                    <button type="submit" class="submit-btn">Submit</button>
-                    <button type="reset" class="clear-btn">Clear</button>
-                </div>
-            </form>
-        </main>
-
-        <footer>
-            © 2025 Job Visa All Rights Reserved.
-        </footer>
+    <div class="top-bar">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg" alt="Saudi Flag" width="20">
+        SAUDIA ARAB AZAD VISA | CONTACT US: +8801350051616
     </div>
+
+    <header class="hero-section">
+        <div class="overlay">
+            <div class="content">
+                <div class="logo">
+                    <img src="logo_path_here.png" alt="Ayan Travels Logo">
+                    <p class="gl-no">GL.No: 3628</p>
+                </div>
+
+                <h3>Are you Planning Tour Today</h3>
+                <h1>YOUR SACRED UMRAH JOURNEY</h1>
+
+                <nav class="nav-links">
+                    <a href="#">TOUR PACKAGES</a>
+                    <a href="#">APPOINTMENTS</a>
+                    <a href="#">VISA SERVICES</a>
+                </nav>
+
+                <p class="experience-text">
+                    CONTACT US <br>
+                    With over 02 YEARS of Islamic tour service experience, book your next journey with us!
+                </p>
+
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+                </div>
+
+                <a href="#" class="cta-btn">Umrah Packages</a>
+            </div>
+        </div>
+    </header>
 
 </body>
 </html>
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 800px;
-    margin: 20px auto;
-    background: #fff;
-    border: 1px solid #ccc;
-}
-
-header {
-    background-color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 3px solid orange;
-}
-
-.logo { width: 50px; }
-
-main {
-    padding: 30px;
-}
-
-h3 {
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
-}
-
-.input-group {
-    margin-bottom: 15px;
-}
-
-.input-group label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.input-group input {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.button-group button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.submit-btn { background-color: #28a745; color: white; }
-.clear-btn { background-color: #dc3545; color: white; }
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    font-size: 14px;
-}

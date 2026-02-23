@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Top Announcement Bar */
+.top-bar {
+    background-color: #4A89FF;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Hero Section Background */
+.hero-section {
+    height: 100vh;
+    background: url('your_kaaba_image_path.jpg') no-repeat center center/cover;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+/* Dark Overlay */
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo */
+.logo img {
+    width: 200px;
+}
+.gl-no {
+    font-size: 12px;
+}
+
+/* Typography */
+h3 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 10px 0;
+    font-weight: 900;
+}
+
+/* Navigation */
+.nav-links {
+    margin: 20px 0;
+}
+.nav-links a {
+    color: #4A89FF;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.experience-text {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+/* Social Icons */
+.social-icons a {
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Button */
+.cta-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 40px;
+    background-color: #2667FF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
