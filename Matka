@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matka Online 24 Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">MATKA ONLINE 24</div>
+        <div class="menu-icon">☰</div>
+    </header>
+
+    <section class="banner">
+        <div class="banner-content">
+            <h2>Matkaonline24</h2>
+            <p>YOUR TRUSTED PARTNER</p>
+        </div>
+    </section>
+
+    <section class="icon-grid">
+        <div class="icon-item">🎰<p>Lottery</p></div>
+        <div class="icon-item">⚽<p>Sports</p></div>
+        <div class="icon-item">🃏<p>Table</p></div>
+        <div class="icon-item">🎲<p>Ludu</p></div>
+    </section>
+
+    <section class="lottery-list">
+        <div class="lottery-card yellow-gradient">
+            <span class="lotto-icon">🍯</span>
+            <span class="lotto-name">KALYAN LOTTERY</span>
+            <button class="play-btn">Play Now</button>
+        </div>
+        <div class="lottery-card orange-gradient">
+            <span class="lotto-icon">🏵️</span>
+            <span class="lotto-name">THAI LOTTERY</span>
+            <button class="play-btn">Play Now</button>
+        </div>
+        <div class="lottery-card red-gradient">
+            <span class="lotto-icon">🌀</span>
+            <span class="lotto-name">PCSO LOTTERY</span>
+            <button class="play-btn">Play Now</button>
+        </div>
+    </section>
+
+    <nav class="bottom-nav">
+        <div class="nav-item active">🏠 Home</div>
+        <div class="nav-item">👤 Login</div>
+        <div class="nav-item">📝 Register</div>
+    </nav>
+
+</body>
+</html>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000b1e;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #000;
+}
+
+.logo { color: orange; font-weight: bold; font-size: 20px; }
+
+.banner {
+    background: url('https://via.placeholder.com/400x200') no-repeat center;
+    background-size: cover;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon-grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.icon-item { text-align: center; font-size: 14px; }
+
+.lottery-list { padding: 10px; }
+
+.lottery-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.yellow-gradient { background: linear-gradient(to right, #ffcc33, #ffb347); }
+.orange-gradient { background: linear-gradient(to right, #ff8c00, #ff4500); }
+.red-gradient { background: linear-gradient(to right, #ff416c, #ff4b2b); }
+
+.play-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    background: #1a2a40;
+    justify-content: space-around;
+    padding: 10px 0;
+}
